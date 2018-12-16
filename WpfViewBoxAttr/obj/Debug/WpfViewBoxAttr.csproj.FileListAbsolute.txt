@@ -1,0 +1,16 @@
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\bin\Debug\WpfViewBoxAttr.exe.config
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\bin\Debug\Images\Desert.jpg
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\bin\Debug\WpfViewBoxAttr.exe
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\bin\Debug\WpfViewBoxAttr.pdb
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\MainWindow.g.cs
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\App.g.cs
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr_Content.g.cs
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr_MarkupCompile.cache
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr_MarkupCompile.lref
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\MainWindow.baml
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr.g.resources
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr.Properties.Resources.resources
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr.csproj.GenerateResource.Cache
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr.exe
+C:\Users\Дмитрий Ткачук\Documents\GitHub\WPFViewBox\WpfViewBoxAttr\obj\Debug\WpfViewBoxAttr.pdb

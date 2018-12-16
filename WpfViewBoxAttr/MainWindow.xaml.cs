@@ -23,10 +23,14 @@ namespace WpfViewBoxAttr
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void ImageSource_MouseMove(object sender, MouseEventArgs e)
         {
+
+
+          
             Image image = sender as Image;
             Point p = e.GetPosition(image);
 
@@ -36,8 +40,8 @@ namespace WpfViewBoxAttr
             var currentX = p.X;
             var currentY = p.Y;
 
-            var viewBoxStartX = currentX / imgWidth;
-            var viewBoxStartY = currentY / imgHeight;
+            var viewBoxStartX = (currentX / imgWidth)-0.25;
+            var viewBoxStartY = (currentY / imgHeight)-0.25;
 
             var viewBoxWidth = 0.5;
             var viewBoxHeight = 0.5;
@@ -61,18 +65,29 @@ namespace WpfViewBoxAttr
                     new Rect(viewBoxStartX, viewBoxMaxStartY, viewBoxWidth, viewBoxHeight);
             }
 
-            imageBox.Visibility = Visibility.Visible;
-            imageBox.Width = imgWidth * 0.5;
-            imageBox.Height = imgHeight * 0.5;
-            Canvas.SetLeft(imageBox, currentX - imageBox.Width * 0.5);
-            Canvas.SetTop(imageBox, currentY - imageBox.Height * 0.5);
+            if (p.X*1.33 < image.ActualWidth && p.X>image.MinWidth + 92)
+            {
+                imageBox.Width = imgWidth * 0.5;
+                Canvas.SetLeft(imageBox, currentX - imageBox.Width * 0.5);
+            }
+            if (p.Y*1.33<imgHeight && p.Y>image.MinHeight + 69)
+            {
+                Console.WriteLine(p.Y);
+                imageBox.Height = imgHeight * 0.5;
+                Canvas.SetTop(imageBox, currentY - imageBox.Height * 0.5);
+            }
+            //imageBox.Visibility = Visibility.Visible;
+            //imageBox.Width = imgWidth * 0.5;
+            //imageBox.Height = imgHeight * 0.5;
+            //Canvas.SetLeft(imageBox, currentX - imageBox.Width * 0.5);
+            //Canvas.SetTop(imageBox, currentY - imageBox.Height * 0.5);
+            imageSource.CaptureMouse();
 
-            //Console.WriteLine($"{p.X} {p.Y}");
-            //Console.WriteLine($"{viewBoxStartX} {viewBoxStartY}");
-            //Console.WriteLine();
 
-            // 100 150
-            // 0.5 0.5
+        }
+        private void ImageSource_MouseLeave(object sender, MouseEventArgs e)
+        {
+            imageSource.ReleaseMouseCapture();
         }
     }
 }
