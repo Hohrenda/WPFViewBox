@@ -72,7 +72,6 @@ namespace WpfViewBoxAttr
             }
             if (p.Y*1.33<imgHeight && p.Y>image.MinHeight + 69)
             {
-                Console.WriteLine(p.Y);
                 imageBox.Height = imgHeight * 0.5;
                 Canvas.SetTop(imageBox, currentY - imageBox.Height * 0.5);
             }
